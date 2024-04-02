@@ -3,6 +3,13 @@
   flex-wrap: wrap;
 }
 
+.cards2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+  margin: 40px;
+}
+
 .card:hover{
 background-color: #FFF0F5;
 transition-duration: 0.4s;
@@ -18,7 +25,7 @@ transition-duration: 0.4s;
 }
 
 .card{
-  	flex-basis: 150px;
+  flex-basis: 150px;
 	flex-grow: 1;
 	margin: 8px;
 }
@@ -30,4 +37,9 @@ transition-duration: 0.4s;
 .card h3 {
   flex-grow: 1;
   padding-left: 20px;
+}
+
+p {
+padding: 15px;
+font-size:14px;
 }
